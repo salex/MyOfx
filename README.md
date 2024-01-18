@@ -67,7 +67,7 @@ If you put it all together instead of
 @acct = OFX(@ofx_data).account
 # I do:
 @acct = MyOfx.new(@ofx_data).account.to_o
-# which returns
+# which @acct.transactions returns
 [#<OpenStruct amount=-1712.0, amount_in_pennies=-171200, fit_id="83866119", memo="On-Us Check CK # 3731", name="CK # 3731", payee="", check_number="3731", ref_number="", posted_at="2024-01-09T00:00:00.000-06:00", sic="">,
  #<OpenStruct amount=7.12, amount_in_pennies=712, fit_id="83866118", memo="Deposit VETERANS OF WARS PAYMENT", name="VETERANS OF WARS PAYMENT", payee="", check_number="", ref_number="", posted_at="2024-01-09T00:00:00.000-06:00", sic="">,
  #<OpenStruct amount=24.0, amount_in_pennies=2400, fit_id="83712032", memo="Deposit VETERANS OF WARS PAYMENT", name="VETERANS OF WARS PAYMENT", payee="", check_number="", ref_number="", posted_at="2024-01-05T00:00:00.000-06:00", sic="">,
