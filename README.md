@@ -23,7 +23,7 @@ OFX uses a file format SGML. Looks a little like HTML or XML, but it not. The ma
                </STMTTRN>
 ```
 
-The gem use nokogiri to parse the file. The open tags are a little problem in that each tag in the <STMTTRN> node is a child of the previous tag. You can get around it but - What if I converted to file to XML! The format is well structured. All open/close tags are on seperate lines.  If I close the *attribute * tags I'd have and XML format!
+The gem use nokogiri to parse the file. The open tags are a little problem in that each tag in the <STMTTRN> node is a child of the previous tag. You can get around it but - What if I converted to file to XML! The format is well structured. All open/close tags are on seperate lines.  If I close the *attribute* tags I'd have and XML format!
 
 
 * I just spilt the file into lines
